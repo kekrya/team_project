@@ -1,0 +1,251 @@
+body{
+  background-color: #cffdf8;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+section{
+  width: 100%;
+  height: 95vh;
+  background-image:url("../image/smoke.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding:0px 5%;
+}
+nav ul{
+  display: flex;
+}
+
+#aruzhan{
+  color:black;
+}
+#a11{
+  color: black;
+}
+nav ul li{
+  margin: 30px;
+  font-family: poppins;
+  color: #505050;
+  font-size: 15px;
+  font-weight: 700;
+}
+.active{
+	color:#2d2a2a;
+	font-weight:bold;
+}
+
+.text-container p:nth-child(1){
+	font-family:poppins;
+	font-weight: lighter;
+	color:#6d6d6d;
+	font-size:22px;
+}
+
+.text-container p:nth-child(2){
+	font-family:poppins;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#1a1a1a;
+	font-size:50px;
+}
+.text-container p:nth-child(3){
+	font-family: poppins;
+	color: #403e3e;
+	font-size:30px;
+	line-height:30px;
+}
+.text-container p{
+	margin:45px 0px 25px;
+	line-height:0px;
+}
+.text-container{
+	position: absolute;
+	left:13%;
+	top:42%;
+	transform:translate(-13%,-42%);
+}
+.text-container button{
+	width:130px;
+	height:42px;
+	border-radius:10px;
+	font-family:poppins;
+	font-weight:bold;
+	font-size: 14px;
+	margin:0px 10px;
+}
+.theme{
+	border:2px solid #373636;
+	color:#373636;
+	background-color:transparent;
+
+}
+.anime{
+	background-color:#0B0B0B;
+	color:#fff;
+	border:none;
+}
+button:active{
+	transform:scale(1.1);
+}
+.komanda{
+  height:480px;
+	position:absolute;
+	bottom:40px;
+	left:77%;
+	transform: translateX(-65%);
+}
+
+.about-manga{
+	width:80%;
+	height:330px;
+	background:white;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.about-manga img{
+	height:300px;
+}
+
+.what-manga{
+	width:500px;
+  text-decoration: none;
+}
+
+.what-manga button{
+	width:140px;
+	height: 40px;
+	outline:none;
+	border:none;
+	font-family: tahoma;
+	background-color:#262525;
+  color: white;
+}
+.knopka{
+  color:white;
+}
+
+.knopka-l{
+  color:black;
+}
+
+#other{
+  padding: 2.1%;
+  text-align: auto;
+}
+
+.about-us{
+	height:600px;
+	background-color:white;
+	padding: 2% 10% 0px 10%;
+}
+.about-us-text p{
+  text-align: center;
+  padding: 4%;
+}
+
+.about-us-text h3{
+  text-align: center;
+}
+
+.box1,.box2,.box3{
+	width: 310px;
+	height:300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 4px;
+}
+.box-container{
+	display:flex;
+	justify-content:space-between;
+}
+
+.box1, .box2, .box3 {
+  background-color:#fdfdc4;
+}
+
+.box1 button,.box2 button, .box3 button{
+	width:100px;
+	height:30px;
+	background-color:white;
+	border:none;
+	outline: none;
+	border-radius:5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-bottom: auto;
+}
+.box1 p,.box2 p, .box3 p{
+	text-align: center ;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+footer{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+footer p{
+  font-family: poppins;
+}
+
+.social-icons a{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdc4;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+
+.social-icons{
+  display: flex;
+}
+
+.social-icons i {
+  color:white;
+}
+
+.social-icons a:hover {
+  background-color: white;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+  transition: all ease 0.5s;
+}
+
+.social-icons a: hover i{
+  color: white;
+  transition: all ease 0.5s;
+}
